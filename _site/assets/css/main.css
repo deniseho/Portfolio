@@ -685,10 +685,9 @@ header {
         font-size: 72px;
         font-weight: 700; } }
     header h1 span {
-        display: inline-block;
-        /*padding: 0.2em 0.5em;*/
-        /*border: rgba(0, 0, 0, 0.5) solid 10px; */
-      }
+      display: inline-block;
+      padding: 0.2em 0.5em;
+      border: rgba(0, 0, 0, 0.5) solid 10px; }
       @media only screen and (min-width: 220px) {
         header h1 span {
           padding: 0.2em 0.5em; } }
