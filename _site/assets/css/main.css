@@ -586,11 +586,12 @@ body {
 h2 {
   color: #303e49;
   text-align: center;
-  padding: 50px 0 30px; }
+  padding: 50px 0 0; 
+}
 
 @media sceen and (max-width: 480px) {
   h2 {
-    padding: 50px 0 50px; } }
+    padding: 50px 0 0; } }
 
 h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_small .kicker {
   font-size: 14px;
@@ -741,12 +742,12 @@ footer {
       display: flex;
       margin: auto;
       border-radius: 60%;
-      background: url(../img/face.jpg) no-repeat; }
+      background: url(../img/deniseho_photo.jpg) no-repeat; }
     .about-lock .face1-img {
       height: 180px;
       width: 180px;
       border-radius: 50%;
-      background: url(../img/android.JPG);
+      background: url(../img/face.JPG);
       margin: auto; }
     .about-lock .flip-container {
       -webkit-perspective: 1000;
@@ -871,11 +872,10 @@ footer {
   text-align: center; }
 
 .section-contact {
-  background: #fce5e5;
   text-align: center; }
 
 .social-links {
-  max-width: 700px;
+  max-width: 200px;
   margin: 0px auto 50px;
   display: -webkit-box;
   display: -moz-box;
@@ -904,8 +904,8 @@ footer {
 .bar {
   width: 250px;
   height: 0px;
-  margin: 40px auto 40px;
-  border-top: 4px solid #303e49; }
+  margin: 0 auto 40px;
+  border-top: 2px solid #303e49; }
 
 .bar-blog {
   width: 250px;
@@ -920,7 +920,7 @@ footer {
   display: inline-block;
   margin-bottom: 70px;
   color: #303e49;
-  font-size: 72px;
+  font-size: 30px;
   font-weight: 300; }
 
 .biglink:hover {
@@ -935,6 +935,7 @@ footer {
 
 .position {
   font-style: italic;
+  font-weight: bold;
 }
 
 .task-list {
@@ -1049,6 +1050,21 @@ footer {
   100% {
     -webkit-transform: scale(1);
     transform: scale(1); } }
+
+.view-btn{
+  background: lightcoral;
+  color: #fff;
+  padding: 0.5em 1em;
+  box-shadow: 0 3px 0 #d6dee4;
+  border: none;
+  border-radius: 0.25em;
+  transition: 0.2s ease-in-out;  
+}
+.view-btn:hover{
+  opacity: 0.9;
+  box-shadow: none; 
+  transform: translateY(2px);
+}
 
 .cd-timeline-content {
   position: relative;
