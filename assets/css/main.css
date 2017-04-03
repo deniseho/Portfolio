@@ -920,7 +920,7 @@ footer {
   display: inline-block;
   margin-bottom: 70px;
   color: #303e49;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 300; }
 
 .biglink:hover {
@@ -1002,7 +1002,8 @@ footer {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #303e49;
+  /*background: #303e49;*/
+  background: #906f6f;
   box-shadow: 0 0 0 4px #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05); }
   .cd-timeline-img img {
     display: block;
