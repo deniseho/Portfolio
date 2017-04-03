@@ -82,6 +82,12 @@ ul li a {
   color: lightcoral;
   text-decoration: underline;
 }
+
+ul li {
+  margin-top: 1em;
+  font-size: 1rem;
+}
+
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
@@ -820,6 +826,7 @@ footer {
     justify-content: space-between;
     -ms-flex-pack: justify; }
     .about-lock .flaticon-cogwheel28 {
+      opacity: 0;      
       -webkit-box-ordinal-group: 1;
       box-ordinal-group: 1;
       -moz-order: 1;
@@ -827,6 +834,7 @@ footer {
       -ms-flex-order: 1;
       display: block; }
     .about-lock .flaticon-computer1 {
+      opacity: 0;
       -webkit-box-ordinal-group: 2;
       box-ordinal-group: 2;
       -moz-order: 2;
@@ -834,6 +842,7 @@ footer {
       -ms-flex-order: 2;
       display: block; }
     .about-lock .flaticon-hosting {
+      opacity: 0;      
       -webkit-box-ordinal-group: 4;
       box-ordinal-group: 4;
       -moz-order: 4;
@@ -841,6 +850,7 @@ footer {
       -ms-flex-order: 4;
       display: block; }
     .about-lock .flaticon-computers13 {
+      opacity: 0;      
       -webkit-box-ordinal-group: 5;
       box-ordinal-group: 5;
       -moz-order: 5;
@@ -918,7 +928,7 @@ footer {
 
 .biglink {
   display: inline-block;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
   color: #303e49;
   font-size: 35px;
   font-weight: 300; }
@@ -1054,10 +1064,11 @@ footer {
     transform: scale(1); } }
 
 .view-btn{
+  float: right;
   background: lightcoral;
   color: #fff;
   padding: 0.5em 1em;
-  box-shadow: 0 3px 0 #d6dee4;
+  box-shadow: 0 3px 0 rgba(0,0,0,0.1);
   border: none;
   border-radius: 0.25em;
   transition: 0.2s ease-in-out;  
@@ -1074,7 +1085,7 @@ footer {
   background: #ffffff;
   border-radius: 0.25em;
   padding: 1em;
-  box-shadow: 0 3px 0 #d6dee4; }
+  box-shadow: 0 3px 0 rgba(0,0,0,0.1); }
   .cd-timeline-content::after {
     clear: both;
     content: "";
@@ -1384,7 +1395,7 @@ form {
 
 #h_small {
   height: 170px;
-  background: url(../img/galway2.jpg) center center;
+  background: url(../img/bg.jpg) center center;
   background-size: cover; }
   #h_small #nav_small {
     float: right;
