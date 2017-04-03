@@ -78,7 +78,10 @@ template {
  */
 a {
   background-color: transparent; }
-
+ul li a {
+  color: lightcoral;
+  text-decoration: underline;
+}
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
@@ -703,6 +706,7 @@ header {
     color: rgba(0, 0, 0, 0.5); }
 
 footer {
+  margin-top: -3.6em;
   background: url(../img/footer.jpg) center center;
   background-size: cover; }
   footer .lockup {
@@ -1196,7 +1200,8 @@ form {
       outline: none;
       border-color: #aebeca; }
   form .submit-wrap {
-    text-align: right; }
+    text-align: right;
+    padding-bottom: 2.4em; }
   form [type="submit"] {
     margin-top: 13px;
     background: #303e49;
