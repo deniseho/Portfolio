@@ -871,7 +871,7 @@ footer {
   text-align: center; }
 
 .section-contact {
-  background: #e5eaee;
+  background: #fce5e5;
   text-align: center; }
 
 .social-links {
@@ -901,7 +901,6 @@ footer {
     -webkit-transition: all 0.15s ease-out 0s;
     transition: all 0.15s ease-out 0s;
     margin-left: 0; }
-
 .bar {
   width: 250px;
   height: 0px;
@@ -932,13 +931,21 @@ footer {
   box-sizing: border-box; }
 
 .history {
-  background: #e5eaee; }
+  background: #fce5e5; }
+
+.position {
+  font-style: italic;
+}
+
+.task-list {
+  list-style: square;
+}
 
 .cd-width {
-  background: #e5eaee; }
+  background: #fce5e5; }
 
 .cd-container {
-  background: #e5eaee;
+  background: #fce5e5;
   width: 90%;
   max-width: 1070px;
   margin: 0 auto; }
@@ -1423,3 +1430,4 @@ form {
 
 .temp-posts {
   margin-bottom: 350px; }
+
