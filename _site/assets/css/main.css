@@ -1474,3 +1474,7 @@ form {
 .task-list {
   list-style: square;
 }
+
+#About-me, #Contact-details, #Experenice{
+  font-size: 20px;
+}
