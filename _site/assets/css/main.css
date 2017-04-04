@@ -1436,13 +1436,14 @@ form {
   font-size: 18px;
 }
 
+.view-btn{
+  color:#fff;
+}
 .view-btn:hover{
+  color:#fff;  
   opacity: 0.9;
   box-shadow: none; 
   transform: translateY(2px);
-}
-.view-btn > a{
-  color:#fff;
 }
 
 .task-list {

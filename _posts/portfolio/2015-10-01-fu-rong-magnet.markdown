@@ -10,37 +10,54 @@ tags: illustration
 
 <div class="img-wrap">
   <img src="../assets/img/portfolio/furong/2013-moon-festival.jpg" />
-  <h5>2013 Moon Festival</h5>
+  <p>2013 Happy Moon Festival</p>
 </div>
+<hr class="bar" />
+
 <div class="img-wrap">
   <img src="../assets/img/portfolio/furong/2013-teachers-day.png" />
-  <h5>2013 Teacher's Day</h5>
+  <p>2013 Teacher's Day</p>
 </div>
+<hr class="bar" />
+
 <div class="img-wrap">
   <img src="../assets/img/portfolio/furong/2013-double-ten.png" />
-  <h5>2013 Double Ten Day</h5>
+  <p>2013 Double Ten Day</p>
 </div>
-<!--<div class="img-wrap">
-  <img src="../assets/img/portfolio/furong/2013-chirstmas.jpg" />
-  <h5>2013 Christmas</h5>
-</div>-->
+<hr class="bar" />
+
 <div class="img-wrap">
   <img src="../assets/img/portfolio/furong/2013-boxing-day.jpg" />
-  <h5>2013 Boxing Day</h5>
+  <p>2013 Boxing Day</p>
 </div>
+<hr class="bar" />
+
 <div class="img-wrap">
   <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" />
-  <h5>2013 Donzhi</h5>
+  <p>2013 Donzhi</p>
 </div>
 
 
 <style>
 img{
-  max-width: 450px;
+  max-width: 400px;
+  box-shadow: 0 0 5px #cccccc;
+}
+img:hover{
+  box-shadow: 0 0 10px #cccccc;
 }
 .img-wrap{
-  text-aign: center;
-  border: 1px solid #cccccc;
+  text-align: center;
+}
+
+.img-wrap p{
+  padding: 1rem;
   margin-bottom: 1rem;
 }
+
+.bar{
+  border-top: 2px solid #cccccc; 
+  margin-bottom: 3rem;
+}
+
 </style>
