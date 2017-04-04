@@ -7,22 +7,40 @@ featured: true
 featured_image: "../assets/img/portfolio/game.png"
 tags: illustration
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+<div class="img-wrap">
+  <img src="../assets/img/portfolio/furong/2013-moon-festival.jpg" />
+  <h5>2013 Moon Festival</h5>
+</div>
+<div class="img-wrap">
+  <img src="../assets/img/portfolio/furong/2013-teachers-day.png" />
+  <h5>2013 Teacher's Day</h5>
+</div>
+<div class="img-wrap">
+  <img src="../assets/img/portfolio/furong/2013-double-ten.png" />
+  <h5>2013 Double Ten Day</h5>
+</div>
+<!--<div class="img-wrap">
+  <img src="../assets/img/portfolio/furong/2013-chirstmas.jpg" />
+  <h5>2013 Christmas</h5>
+</div>-->
+<div class="img-wrap">
+  <img src="../assets/img/portfolio/furong/2013-boxing-day.jpg" />
+  <h5>2013 Boxing Day</h5>
+</div>
+<div class="img-wrap">
+  <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" />
+  <h5>2013 Donzhi</h5>
+</div>
 
-Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+<style>
+img{
+  max-width: 450px;
+}
+.img-wrap{
+  text-aign: center;
+  border: 1px solid #cccccc;
+  margin-bottom: 1rem;
+}
+</style>

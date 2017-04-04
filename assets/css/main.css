@@ -505,32 +505,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #303e49;
   font-weight: bold; }
 
-.gigantic {
-  font-size: 1100px;
-  line-height: 1.09;
-  letter-spacing: -2px; }
-
-.huge, h1 {
-  font-size: 608px;
-  line-height: 1.05;
-  letter-spacing: -1px; }
-
-.large, h2 {
-  font-size: 430px;
-  line-height: 1.14; }
-
-.bigger, h3 {
-  font-size: 260px;
-  line-height: 1.38; }
-
-.big, h4 {
-  font-size: 220px;
-  line-height: 1.38; }
-
-.small, small {
-  font-size: 10px;
-  line-height: 1.2; }
-
 p {
   margin: 0 0 20px 0; }
 
@@ -1291,7 +1265,7 @@ form {
   .title:hover {
     padding-left: 10px; }
   .post-title {
-    font-size: 18px;
+    font-size: 38px;
     text-align: center;
     letter-spacing: -1px;
     line-height: 1;
