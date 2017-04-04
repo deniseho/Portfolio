@@ -2,27 +2,24 @@
 layout: post
 title:  "udn Digital"
 date:   2015-09-30 18:11:02
-categories: project
+categories: portfolio
 featured: true
 featured_image: "../assets/img/portfolio/cabin.png"
 tags: design
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+<ul class="task-list">
+  <li>
+    <strong>NewsSmith project</strong></br>
+    the news editing system: Testing the system and writing a tutorial webpage with html, css and javascript.
+  </li>
+  <li>
+    <strong>UCD project</strong></br>
+    the images/text searching engine: Writing BDD testing system with Selenium and Specflow.
+  </li>
+  <li>
+    <strong>PMG project</strong></br>
+    the production management system for printing department: Designing the UI and developing the front-end side for the system
+    with html, css, JQuery and Knockout.js.
+  </li>
+</ul>
