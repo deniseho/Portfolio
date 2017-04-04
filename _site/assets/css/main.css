@@ -1441,7 +1441,6 @@ form {
 .view-btn{
   float: right;
   background: lightcoral;
-  color: #fff;
   padding: 0.5em 1em;
   box-shadow: 0 3px 0 rgba(0,0,0,0.1);
   border: none;
@@ -1452,6 +1451,9 @@ form {
   opacity: 0.9;
   box-shadow: none; 
   transform: translateY(2px);
+}
+.view-btn > a{
+  color:#fff;
 }
 
 .cd-timeline-content h2{
