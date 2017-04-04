@@ -9,15 +9,15 @@ tags: design
 ---
 
 <ul class="task-list">
-  <li>
+  <li id="NewsSmith">
     <strong>NewsSmith project</strong></br>
     the news editing system: Testing the system and writing a tutorial webpage with html, css and javascript.
   </li>
-  <li>
+  <li id="UCD">
     <strong>UCD project</strong></br>
     the images/text searching engine: Writing BDD testing system with Selenium and Specflow.
   </li>
-  <li>
+  <li id="PMG">
     <strong>PMG project</strong></br>
     the production management system for printing department: Designing the UI and developing the front-end side for the system
     with html, css, JQuery and Knockout.js.
