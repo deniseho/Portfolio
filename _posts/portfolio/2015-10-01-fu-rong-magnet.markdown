@@ -8,14 +8,6 @@ featured_image: "../assets/img/portfolio/game.png"
 tags: illustration
 ---
 <style>
-body {
-  font-family: Verdana, sans-serif;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
 
 .row > .column {
   padding: 0 8px;
@@ -37,7 +29,7 @@ body {
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 50px;
   left: 0;
   top: 0;
   width: 100%;
@@ -61,7 +53,7 @@ body {
   color: white;
   position: absolute;
   top: 10px;
-  right: 25px;
+  right: 50px;
   font-size: 35px;
   font-weight: bold;
 }
@@ -149,6 +141,10 @@ img {
   opacity: 1;
 }
 
+img{
+  width: 100%;
+}
+
 img.hover-shadow {
   transition: 0.3s
 }
@@ -163,28 +159,28 @@ img.hover-shadow {
 
 <div class="row">
   <div class="column">
-    <img src="../assets/img/portfolio/furong/2013-double-ten.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    <img src="../assets/img/portfolio/furong/2013-double-ten.png" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="../assets/img/portfolio/furong/2013-teachers-day.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <img src="../assets/img/portfolio/furong/2013-teachers-day.png" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="../assets/img/portfolio/furong/2013-double-ten.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    <img src="../assets/img/portfolio/furong/2013-double-ten.png" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="../assets/img/portfolio/furong/2013-teachers-day.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <img src="../assets/img/portfolio/furong/2013-teachers-day.png" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
   </div>
 </div>
 
@@ -193,35 +189,43 @@ img.hover-shadow {
   <div class="modal-content">
     <div class="mySlides">
       <div class="numbertext">1 / 4</div>
-      <img src="../assets/img/portfolio/furong/2013-double-ten.png" style="width:100%">
+      <img src="../assets/img/portfolio/furong/2013-double-ten.png" 
+          class="demo" alt="test">
     </div>
     <div class="mySlides">
       <div class="numbertext">2 / 4</div>
-      <img src="../assets/img/portfolio/furong/2013-teachers-day.png" style="width:100%">
+      <img src="../assets/img/portfolio/furong/2013-teachers-day.png"
+          class="demo" alt="test">      
     </div>
     <div class="mySlides">
       <div class="numbertext">3 / 4</div>
-      <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" style="width:100%">
+      <img src="../assets/img/portfolio/furong/2014-donzhi.jpg"
+          class="demo" alt="test">   
     </div>  
     <div class="mySlides">
       <div class="numbertext">4 / 4</div>
-      <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" style="width:100%">
+      <img src="../assets/img/portfolio/furong/2014-donzhi.jpg"
+          class="demo" alt="test">         
     </div>
         <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="../assets/img/portfolio/furong/2013-double-ten.png" style="width:100%">
+      <div class="numbertext">5 / 4</div>
+      <img src="../assets/img/portfolio/furong/2013-double-ten.png"
+          class="demo" alt="test">         
     </div>
     <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="../assets/img/portfolio/furong/2013-teachers-day.png" style="width:100%">
+      <div class="numbertext">6 / 4</div>
+      <img src="../assets/img/portfolio/furong/2013-teachers-day.png"
+          class="demo" alt="test">         
     </div>
     <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-      <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" style="width:100%">
+      <div class="numbertext">7 / 4</div>
+      <img src="../assets/img/portfolio/furong/2014-donzhi.jpg"
+          class="demo" alt="test">         
     </div>  
     <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-      <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" style="width:100%">
+      <div class="numbertext">8 / 4</div>
+      <img src="../assets/img/portfolio/furong/2014-donzhi.jpg"
+          class="demo" alt="test">         
     </div>  
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
