@@ -7,7 +7,8 @@ featured: true
 featured_image: "../assets/img/portfolio/cabin.png"
 tags: design
 ---
-<p class="summery">udn Digital is a subsidiary company of United Daily News, which is one of the most influential news corporations in Taiwan. My team developed systems for the corporation with ASP.NET MVC framework. I had joined three projects in udn Digital. The details of the projects are as follows.</p>
+<p class="summery">udn Digital is a subsidiary company of United Daily News, which is one of the most influential news corporations in Taiwan. My team developed systems for the corporation with ASP.NET MVC framework.
+</p>
 <ul class="task-list">
   <li id="NewsSmith">
     <strong>NewsSmith</strong></br>
@@ -39,7 +40,7 @@ tags: design
     </ul>
     <p class="article-section">    
       UCD is a news images/text searching engine for United Daily News.
-      Compare to the previous system which is awkward to use, the new version of UCD developed by my team is praised for its better UI design and speed.
+      Compare to the previous system which is awkward to use, the new version of UCD we developed is praised for its better UI design and speed.
     </p>
     <p class="article-section">    
       In this project, I participate in designing and building the UI, and I wrote automatic test system with selenium and specflow. Because of my automatic test system, we didn't have to test manually whenever new code version comes out, which saved a lot of time and made the project process more efficiently.
@@ -54,10 +55,10 @@ tags: design
       <li>Test: Selenium, Specflow</li>
     </ul>
     <p class="article-section">
-      Production Management System is a system for printing department of United Daily News. The previous version of system was of bad design, both in UI and programming. We redesigned the UI and the programming flow, and the result was a big win. The new system is praised for its better UI design, and better stability. 
+      Production Management System is a system for printing department of United Daily News. The previous version of system was of bad design, both in UI and code structure. We redesigned the UI as well as the code structure, and the result was a big win. The new system is praised for its better UI design, and better stability. 
     </p>
     <p class="article-section">
-      In this project, I was responsible for all the front-end part, including the UI prototyping and programming. I learned a lots of front-end techniques and I really appreciate my team for giving me such an oppotunity.
+      In this project, I was responsible for all the front-end part, including the UI prototyping and programming. I learned a lots of front-end techniques from this project, and I really appreciate my team for giving me such an oppotunity.
     </p>
   </li>
 </ul>
@@ -72,6 +73,10 @@ tags: design
   .task-list > li{
     margin-bottom: 3rem;
   }
+
+  .task-list > li > strong{
+    font-size: 20px;
+  }  
 
   .task-info{
     list-style: none;

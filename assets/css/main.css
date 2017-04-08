@@ -1416,27 +1416,6 @@ form {
   border: none;
   border-radius: 0.25em;
   transition: 0.2s ease-in-out;  
-}
-.cd-timeline-content .position {
-  font-size: 15px;
-  font-style: italic;
-  font-weight: 500;
-  text-align: center;
-}
-.cd-timeline-content a.portfolio-link{
-  border-bottom: 1px dotted lightcoral;
-  color: lightcoral;
-}
-.cd-timeline-content a.portfolio-link:hover{
-  border-bottom: 1px dotted #906f6f;
-  color: #906f6f;
-  cursor: pointer;
-}
-.cd-timeline-content h2{
-  font-size: 18px;
-}
-
-.view-btn{
   color:#fff;
 }
 .view-btn:hover{
@@ -1444,6 +1423,17 @@ form {
   opacity: 0.9;
   box-shadow: none; 
   transform: translateY(2px);
+}
+
+.cd-timeline-content .position {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+}
+
+.cd-timeline-content h2{
+  font-size: 18px;
 }
 
 .task-list {
