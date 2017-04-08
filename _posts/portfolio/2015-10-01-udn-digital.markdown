@@ -38,7 +38,7 @@ tags: design
   </li>
   <li id="PMG">
     <strong>Production Management System</strong></br>
-        <ul>
+    <ul>
       <li>Duration: Mar 2016 - Oct 2016</li>
       <li>Backend: ASP.NET MVC, C#, SQL</li>
       <li>Frontend: knockout.js, Bootstrap</li>
