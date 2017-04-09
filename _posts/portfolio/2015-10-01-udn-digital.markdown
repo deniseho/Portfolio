@@ -4,7 +4,7 @@ title:  "udn Digital"
 date:   2015-09-30 18:11:02
 categories: portfolio
 featured: true
-featured_image: "../assets/img/portfolio/cabin.png"
+featured_image: "../assets/img/portfolio/udndigital-link.png"
 tags: design
 ---
 <p class="summery">udn Digital is a subsidiary company of United Daily News, which is one of the most influential news corporations in Taiwan. My team developed systems for the corporation with ASP.NET MVC framework. The projects I joined are listed below:

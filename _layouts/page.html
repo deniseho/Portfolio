@@ -12,10 +12,10 @@ layout: default
   <div class="col-sm-3">
     <div class="post-header">
       <a href="{{post.url}}">
-          <img src="../portfolio/{{ post.featured_image }}" style="width: 260px"/>
-          <h3 class="post-title">
+          <img src="../portfolio/{{ post.featured_image }}"/>
+          <!--<h3 class="post-title">
               {{ post.title }}
-          </h3>
+          </h3>-->
       </a>
     </div>
     <!--<div class="post-header">
@@ -24,12 +24,15 @@ layout: default
  </div>
 
   {% endfor %}
-  <hr class="bar-blog"> </hr>
+  <!--<hr class="bar-blog"> </hr>-->
 <div class="temp-posts">
 </div>
 
 <style>
-  a:hover{
-    text-decoration: none;
+  h2, .bar-blog{
+    opacity: 0.7;
+  }
+  img:hover{
+    opacity: 0.8;    
   }
 </style>

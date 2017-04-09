@@ -4,7 +4,7 @@ title:  "Omninsight"
 date:   2015-09-30 18:11:01
 categories: portfolio
 featured: true
-featured_image: "../assets/img/portfolio/game.png"
+featured_image: "../assets/img/portfolio/omninsight-link.png"
 tags: illustration
 ---
 <!--<ul class="task-list">
@@ -40,7 +40,7 @@ Omninsight, my current working place, is a startup company from Nov 2016 investe
     <strong>Omninsight Official Website</strong></br>
     <ul class="task-info">
       <li>Wordpress customized theme</li>
-      <li><a href="">View the website</a></li>
+      <li><a href="http://omninsight.io/">View the website</a></li>
     </ul>
     <p class="article-section">    
     </p>
@@ -50,7 +50,7 @@ Omninsight, my current working place, is a startup company from Nov 2016 investe
     <strong>Farglory 95 Official Website</strong></br>
     <ul class="task-info">
       <li>Wordpress customized theme</li>
-      <li><a href="">View the website</a></li>      
+      <li><a href="http://54.254.221.59/index.php/zh/index/">View the website</a></li>      
     </ul>
     <p class="article-section">    
     </p>
