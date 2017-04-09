@@ -7,8 +7,13 @@ featured: true
 featured_image: "../assets/img/portfolio/cabin.png"
 tags: design
 ---
-<p class="summery">udn Digital is a subsidiary company of United Daily News, which is one of the most influential news corporations in Taiwan. My team developed systems for the corporation with ASP.NET MVC framework.
+<p class="summery">udn Digital is a subsidiary company of United Daily News, which is one of the most influential news corporations in Taiwan. My team developed systems for the corporation with ASP.NET MVC framework. The projects I joined are listed below:
 </p>
+<ul class="nav more-demo-links">
+  <li><a href="#NewsSmith">NewsSmith</a></li>
+  <li><a href="#UCD">UCD Searching Engine</a></li>
+  <li><a href="#PMG">Production Management System</a></li>
+</ul>
 <ul class="task-list">
   <li id="NewsSmith">
     <strong>NewsSmith</strong></br>
@@ -43,7 +48,7 @@ tags: design
       Compare to the previous system which is awkward to use, the new version of UCD we developed is praised for its better UI design and speed.
     </p>
     <p class="article-section">    
-      In this project, I participate in designing and building the UI, and I wrote automatic test system with selenium and specflow. Because of my automatic test system, we didn't have to test manually whenever new code version comes out, which saved a lot of time and made the project process more efficiently.
+      In this project, I participate in designing and building the UI, and I wrote automatic test system with selenium and specflow. Because of my automatic test system, we didn't have to test manually whenever new code version comes out, which saved a lot of time and made the project process more efficiently. In addition, I thought of a new function - history record - for the system, by which the users can search what keywords they have entered and what options they have chosen. Because of this new function, not only enhances user experience, but also benefit for us to track users' behaviors.
     </p>
   </li>
   <li id="PMG">
@@ -58,8 +63,24 @@ tags: design
       Production Management System is a system for printing department of United Daily News. The previous version of system was of bad design, both in UI and code structure. We redesigned the UI as well as the code structure, and the result was a big win. The new system is praised for its better UI design, and better stability. 
     </p>
     <p class="article-section">
-      In this project, I was responsible for all the front-end part, including the UI prototyping and programming. I learned a lots of front-end techniques from this project, and I really appreciate my team for giving me such an oppotunity.
+      In this project, I was responsible for all the front-end part, including the UI prototyping and programming. I thought of a more user-friendly interface, and smarter, more efficient working flow. I learned a lots of front-end techniques from this project, and I really appreciate my team for giving me such an oppotunity.
     </p>
+    <p>
+    <h4>Today's Tasks Management Demo<h4>
+    <div class="demo-video" style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/In4paRAniF4?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+    <h4>Delat Alert Management Demo</h4>
+    <div class="demo-video" style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/KoSbj_Kgqs8?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+    <h4>Delat Alert Reciever Management Demo</h4>
+    <div class="demo-video" style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/_-VIhx95HFg?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+    </p>
+    <h4>More Demos:</h4>
+    <ul class="more-demo-links">
+      <li><a href="https://youtu.be/sA6po1eglGw" target="_blank">Login</a></li>
+      <li><a href="https://youtu.be/3ID-wKTkkZc" target="_blank">Routine Data Management</a></li>
+      <li><a href="https://youtu.be/mE2BCN3qW4c" target="_blank">Data Sending</a></li>
+      <li><a href="https://youtu.be/G7f_jDwSgnA" target="_blank">Production Records</a></li>
+      <li><a href="https://youtu.be/TlVeRT-Fi3I" target="_blank">Authorization Management</a></li>
+    </ul>
   </li>
 </ul>
 
@@ -75,7 +96,7 @@ tags: design
   }
 
   .task-list > li > strong{
-    font-size: 20px;
+    font-size: 24px;
   }  
 
   .task-info{
@@ -96,4 +117,31 @@ tags: design
     box-shadow: 0 0 5px #cccccc;
     margin-bottom: 1rem;
   }
+
+  .demo-video{
+    margin-bottom: 3rem;
+  }
+
+  .more-demo-links{
+    list-style: none;
+  }
+
+  .more-demo-links li a{
+    margin-left: -2rem;
+    color: lightcoral;
+    border-bottom: 1px dotted lightcoral;
+  }
+
+  .nav.more-demo-links{
+    margin-top: -1.3rem;
+    margin-bottom: 3rem;
+  }
+
+  .nav.more-demo-links li a{
+    margin-left: 0rem;
+  }
+
+  .more-demo-links li a:hover{
+    opacity: 0.8;
+  }  
 </style>
