@@ -7,6 +7,107 @@ featured: true
 featured_image: "../assets/img/portfolio/furong-link.png"
 tags: illustration
 ---
+
+<body>
+
+<h2 style="text-align:center">Lightbox</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="../assets/img/portfolio/furong/2013-double-ten.jpg" onclick="openModal();currentSlide(1)" class="cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/img/portfolio/furong/2013-teachers-day.png" onclick="openModal();currentSlide(2)" class="cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" onclick="openModal();
+    currentSlide(3)" class="cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" onclick="openModal();
+    currentSlide(4)" class="cursor">
+  </div>
+  <div class="column">
+    <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" onclick="openModal();
+    currentSlide(5)" class="cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="../assets/img/portfolio/furong/2013-double-ten.jpg" 
+          class="demo" alt="2013 Double Ten Day">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="../assets/img/portfolio/furong/2013-teachers-day.png"
+          class="demo" alt="2013 Teacher's Day">      
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="../assets/img/portfolio/furong/2014-donzhi.jpg"
+          class="demo" alt="2014 Donzhi">   
+    </div>  
+    <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="../assets/img/portfolio/furong/2014-donzhi.jpg"
+          class="demo" alt="">         
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+      <img src="../assets/img/portfolio/furong/2014-donzhi.jpg"
+          class="demo" alt="">         
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  </div>
+</div>
+
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
 <style>
 
 .row > .column {
@@ -143,133 +244,11 @@ img {
 
 img{
   width: 100%;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
-img.hover-shadow {
-  transition: 0.3s
+img:hover{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-.hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-}
 </style>
-<body>
-
-<h2 style="text-align:center">Lightbox</h2>
-
-<div class="row">
-  <div class="column">
-    <img src="../assets/img/portfolio/furong/2013-double-ten.png" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="../assets/img/portfolio/furong/2013-teachers-day.png" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="../assets/img/portfolio/furong/2013-double-ten.png" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="../assets/img/portfolio/furong/2013-teachers-day.png" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="../assets/img/portfolio/furong/2014-donzhi.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-  </div>
-</div>
-
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-    <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="../assets/img/portfolio/furong/2013-double-ten.png" 
-          class="demo" alt="test">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="../assets/img/portfolio/furong/2013-teachers-day.png"
-          class="demo" alt="test">      
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-      <img src="../assets/img/portfolio/furong/2014-donzhi.jpg"
-          class="demo" alt="test">   
-    </div>  
-    <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-      <img src="../assets/img/portfolio/furong/2014-donzhi.jpg"
-          class="demo" alt="test">         
-    </div>
-        <div class="mySlides">
-      <div class="numbertext">5 / 4</div>
-      <img src="../assets/img/portfolio/furong/2013-double-ten.png"
-          class="demo" alt="test">         
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">6 / 4</div>
-      <img src="../assets/img/portfolio/furong/2013-teachers-day.png"
-          class="demo" alt="test">         
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">7 / 4</div>
-      <img src="../assets/img/portfolio/furong/2014-donzhi.jpg"
-          class="demo" alt="test">         
-    </div>  
-    <div class="mySlides">
-      <div class="numbertext">8 / 4</div>
-      <img src="../assets/img/portfolio/furong/2014-donzhi.jpg"
-          class="demo" alt="test">         
-    </div>  
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-  </div>
-</div>
-
-<script>
-function openModal() {
-  document.getElementById('myModal').style.display = "block";
-}
-
-function closeModal() {
-  document.getElementById('myModal').style.display = "none";
-}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
