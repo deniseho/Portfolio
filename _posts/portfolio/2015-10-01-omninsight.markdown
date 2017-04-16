@@ -26,7 +26,7 @@ Omninsight, my current working place, is a startup company from Nov 2016 investe
   </li>
 
   <li id="Omninsight">
-    <strong>Omninsight Official Website</strong></br>
+    <strong>Omninsight Official Website (processing)</strong></br>
     <ul class="task-info">
       <li>Wordpress customized theme</li>
       <li><a href="http://omninsight.io/"  target="_blank">View the website</a></li>

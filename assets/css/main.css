@@ -727,7 +727,7 @@ footer {
       height: 180px;
       width: 180px;
       border-radius: 50%;
-      background: url(../img/face.JPG);
+      background: url(../img/face.jpg);
       margin: auto; }
     .about-lock .flip-container {
       -webkit-perspective: 1000;
