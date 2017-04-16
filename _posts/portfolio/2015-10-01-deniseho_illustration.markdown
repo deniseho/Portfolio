@@ -25,7 +25,7 @@ tags: design
 <hr class="bar">
 <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/69859077@N04/albums/72157680071762002" title="How Ye Steak"><img src="https://c1.staticflickr.com/3/2925/34065143615_a242297b63_z.jpg" width="450" alt="How Ye Steak"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-<h2>Hat</h2>
+<h2>H.A.T</h2>
 <hr class="bar">
 <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/69859077@N04/albums/72157680856001110" title="H.A.T"><img src="https://c1.staticflickr.com/3/2875/34065024405_0afee02c31_z.jpg" width="400" height="300" alt="H.A.T"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
