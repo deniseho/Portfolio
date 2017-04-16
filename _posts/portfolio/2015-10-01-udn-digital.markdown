@@ -7,6 +7,8 @@ featured: true
 featured_image: "../assets/img/portfolio/udndigital-link.png"
 tags: design
 ---
+
+<div style="padding: 0 15rem 4rem 15rem">
 <p class="summery">udn Digital is a subsidiary company of United Daily News, which is one of the most influential news corporations in Taiwan. My team developed systems for the corporation with ASP.NET MVC framework. The projects I joined are listed below:
 </p>
 <ul class="nav more-demo-links">
@@ -83,6 +85,7 @@ tags: design
     </ul>
   </li>
 </ul>
+</div>
 
 <style>
   .summery{

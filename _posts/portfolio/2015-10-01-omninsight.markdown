@@ -7,19 +7,8 @@ featured: true
 featured_image: "../assets/img/portfolio/omninsight-link.png"
 tags: illustration
 ---
-<!--<ul class="task-list">
-  <li>
-    <strong>ADMETRIX</strong></br>
-    Making interactive information charts with D3.js and React.js.
-  </li>
-  <li>
-    <strong>Official Websites for Companies</strong></br>
-    <a class="portfolio-link" href="http://omninsight.io" target="blank">Omninsight</a></br>
-    <a class="portfolio-link" href="">Far Glory Real Estate</a></br>
-    <a class="portfolio-link" href="">Grace Optical</a> (processing)
-  </li>
-</ul>-->
 
+<div style="padding: 0 15rem 4rem 15rem">
 <p class="summery">
 Omninsight, my current working place, is a startup company from Nov 2016 invested by United Daily News. We do digital marketing by analyzing data from facebook, and from database of United Daily News. My task is to fetch the data from AWS server, and build interative information charts with the data. On the other hand, I also build official websites for companies.</p>
 <ul class="task-list">
@@ -50,9 +39,13 @@ Omninsight, my current working place, is a startup company from Nov 2016 investe
     <strong>Farglory 95 Official Website</strong></br>
     <ul class="task-info">
       <li>Wordpress customized theme</li>
-      <li><a href="http://54.254.221.59/index.php/zh/index/">View the website</a></li>      
+      <li>
+          <a href="http://95rich.farglory-realty.com.tw/index.php/zh/index/" target="_blank">
+          View the website</a>
+      </li>      
     </ul>
-    <p class="article-section">    
+    <p class="article-section">
+      <img src="../assets/img/portfolio/omninsight/farglory95.png">    
     </p>
   </li>
 
@@ -66,6 +59,7 @@ Omninsight, my current working place, is a startup company from Nov 2016 investe
     </p>
   </li>
 </ul>
+</div>
 
 <style>
   .summery{
@@ -107,6 +101,5 @@ Omninsight, my current working place, is a startup company from Nov 2016 investe
 
   img{
     box-shadow: 0 0 5px #cccccc;
-    margin-bottom: 1rem;
   }
 </style>
