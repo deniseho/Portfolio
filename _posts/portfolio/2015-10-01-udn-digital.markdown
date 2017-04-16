@@ -50,7 +50,9 @@ tags: design
       Compare to the previous system which is awkward to use, the new version of UCD we developed is praised for its better UI design and speed.
     </p>
     <p class="article-section">    
-      In this project, I participate in designing and building the UI, and I wrote automatic test system with selenium and specflow. Because of my automatic test system, we didn't have to test manually whenever new code version comes out, which saved a lot of time and made the project process more efficiently. In addition, I thought of a new function - history record - for the system, by which the users can search what keywords they have entered and what options they have chosen. Because of this new function, not only enhances user experience, but also benefit for us to track users' behaviors.
+      In this project, I participate in designing and building the UI, and I wrote automatic test system with selenium and specflow. Because of my automatic test system, we didn't have to test everything manually whenever new code version came out, which saved a lot of time and made the project process more efficiently. In addition, I thought of a new function - history record - for the system, by which the users can search what keywords they have entered and what options they have chosen. This new function not only enhances user experience, but also benefits us to track users' behaviors.
+      <img src="../assets/img/portfolio/udn/ucd_01.jpg" style="width: 740px">
+      <img src="../assets/img/portfolio/udn/ucd_02.jpg" style="width: 740px">
     </p>
   </li>
   <li id="PMG">

@@ -1344,7 +1344,8 @@ form {
 #h_small {
   height: 170px;
   background: url(../img/bg.jpg) center center;
-  background-size: cover; }
+  background-size: cover; 
+  }
   #h_small #nav_small {
     float: right;
     margin: 30px 30px 30px; }
