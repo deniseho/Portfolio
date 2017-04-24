@@ -79,10 +79,6 @@ template {
 a {
   background-color: transparent; }
 
-ul li {
-  margin-bottom: 0.3rem;
-  font-size: 1rem;
-}
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
@@ -848,12 +844,11 @@ footer {
     max-width: 980px; } }
 
 .blurb {
-  max-width: 750px;
-  padding: 0 15px;
-  margin: 50px auto;
+  max-width: 900px;
+  padding: 0;
+  margin: 0 auto;
   font-size: 18px;
-  font-weight: 30;
-  text-align: center; }
+}
 
 .section-contact {
   text-align: center; }
@@ -1246,7 +1241,7 @@ form {
     display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
-    margin: 10 auto;
+    /*margin: 10 auto;*/
     -webkit-box-align: center;
     box-align: center;
     -moz-align-items: center;
@@ -1261,17 +1256,19 @@ form {
     -o-justify-content: space-between;
     justify-content: space-between;
     -ms-flex-pack: justify;
-    padding-left: 10px; }
-  .title:hover {
-    padding-left: 10px; }
+    /*padding-left: 10px; */
+    }
+  /*.title:hover {
+    padding-left: 10px; }*/
   .post-title {
-    font-size: 38px;
+    font-size: 20px;
     text-align: center;
     letter-spacing: -1px;
     line-height: 1;
-    padding-left: 10px; }
+    /*padding-left: 10px; */
+    }
     .post-title:hover {
-      padding-left: 10px; }
+      padding-left: 3px; }
   .post-meta {
     margin-bottom: 0px;
     padding-bottom: 20px;
@@ -1427,13 +1424,15 @@ form {
 }
 
 .cd-timeline-content .position {
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 20px;
   font-style: italic;
   font-weight: 500;
   text-align: center;
 }
 
 .cd-timeline-content h2{
+  line-height: 10px;
   font-size: 18px;
 }
 
@@ -1441,6 +1440,14 @@ form {
   list-style: square;
 }
 
-#about-me, #Details, #Experenice{
+#about-me, #skills, #Details, #Experenice{
   font-size: 20px;
 }
+
+.location{
+  font-size: 13px; 
+  font-style:italic; 
+  line-height: 10px;
+  text-align: center;
+}
+
