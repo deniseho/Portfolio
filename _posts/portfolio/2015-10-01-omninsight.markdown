@@ -9,8 +9,6 @@ tags: illustration
 ---
 
 <div style="padding: 0 15rem 4rem 15rem">
-<p class="summery">
-Omninsight, my current working place, is a startup company from Nov 2016 invested by United Daily News. We do digital marketing by analyzing data from facebook, and from database of United Daily News. My task is to fetch the data from AWS server, and build interative information charts with the data. On the other hand, I also build official websites for companies.</p>
 <ul class="task-list">
   <li id="Admatrix">
     <strong>Admatrix (processing)</strong></br>
@@ -18,18 +16,13 @@ Omninsight, my current working place, is a startup company from Nov 2016 investe
       <li>Backend: PHP, mySQL, AWS</li>
       <li>Frontend: React.js, Redux, webpack, D3.js</li>
     </ul>
-    <p class="article-section">
-    </p>
-    <p>
-      <!--<img src="../assets/img/portfolio/udn/newsSmith02.png">-->
-    </p>
   </li>
 
   <li id="Omninsight">
     <strong>Omninsight Official Website (processing)</strong></br>
     <ul class="task-info">
       <li>Wordpress customized theme</li>
-      <li><a href="http://omninsight.io/"  target="_blank">View the website</a></li>
+      <!--<li><a href="http://omninsight.io/"  target="_blank">View the website</a></li>-->
     </ul>
     <p class="article-section">    
     </p>
@@ -39,13 +32,12 @@ Omninsight, my current working place, is a startup company from Nov 2016 investe
     <strong>Farglory 95 Official Website</strong></br>
     <ul class="task-info">
       <li>Wordpress customized theme</li>
-      <li>
-          <a href="http://95rich.farglory-realty.com.tw/index.php/zh/index/" target="_blank">
-          View the website</a>
-      </li>      
+      <!--<li>
+          <a href="http://95rich.farglory-realty.com.tw/index.php/zh/index/" target="_blank">View the website</a>
+      </li>      -->
     </ul>
     <p class="article-section">
-    <a href="http://95rich.farglory-realty.com.tw/index.php/zh/index/" target="_blank">
+    <a href="http://95rich.farglory-realty.com.tw/index.php/zh/index/"  target="_blank">
       <img src="../assets/img/portfolio/omninsight/farglory95.png">    
       </a>
     </p>
@@ -76,10 +68,11 @@ Omninsight, my current working place, is a startup company from Nov 2016 investe
   }
 
   .task-list > li > strong{
-    font-size: 20px;
+    font-size: 22px;
   }  
 
   .task-info{
+    font-size: 16px;
     list-style: none;
     padding: 0.5rem 1rem;
     margin: 0.5rem 0 1rem 0;
