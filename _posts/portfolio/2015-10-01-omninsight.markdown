@@ -47,8 +47,8 @@ tags: illustration
     <strong>Grace Optical Official Website (processing)</strong></br>
     <ul class="task-info">
       <li>Wordpress customized theme</li>
-      <li><a href="http://54.255.219.52/demo/grace_homepage/" target="_blank">
-        View the website (unfinished)</a></li>      
+      <!--<li><a href="http://54.255.219.52/demo/grace_homepage/" target="_blank">
+        View the website (unfinished)</a></li>      -->
     </ul>
     <p class="article-section">
     </p>
