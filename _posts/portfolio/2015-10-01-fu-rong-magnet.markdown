@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fu Rong Magnet"
-date:   2015-09-30 18:11:07
+date:   2015-09-30 18:11:07`
 categories: portfolio
 featured: true
 featured_image: "../assets/img/portfolio/furong-link.png"

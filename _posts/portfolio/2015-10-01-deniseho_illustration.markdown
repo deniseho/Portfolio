@@ -9,7 +9,7 @@ tags: design
 ---
 
 <div style="text-align: center; padding-bottom: 4rem">
-<h2>Hand Drawing/Painting</h2>
+<h2>Illustration</h2>
 <hr class="bar">
 <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/69859077@N04/albums/72157680613347471" title="Denise Ho Illustration"><img src="https://c1.staticflickr.com/3/2882/33907118352_f0eaf7ea23_b.jpg" width="1024" height="660" alt="Denise Ho Illustration"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
