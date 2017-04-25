@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Omninsight"
-date:   2015-09-30 18:11:01
+date:   2015-09-30 18:11:10
 categories: portfolio
 featured: true
 featured_image: "../assets/img/portfolio/omninsight-link.png"
