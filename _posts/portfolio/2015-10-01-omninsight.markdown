@@ -19,10 +19,10 @@ tags: illustration
   </li>
 
   <li id="Omninsight">
-    <strong>Omninsight Official Website (processing)</strong></br>
+    <strong>Omninsight Official Website</strong></br>
     <ul class="task-info">
       <li>Wordpress customized theme</li>
-      <!--<li><a href="http://omninsight.io/"  target="_blank">View the website</a></li>-->
+      <li><a href="http://omninsight.io/"  target="_blank">View the website</a></li>
     </ul>
     <p class="article-section">    
     </p>
