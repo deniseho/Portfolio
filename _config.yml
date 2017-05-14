@@ -1,4 +1,4 @@
 name: Denise Ho
-markdown: redcarpet
+markdown: kramdown
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 permalink: /:categories/:title.html
