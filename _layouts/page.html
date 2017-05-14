@@ -9,8 +9,6 @@ layout: default
 <h2 id="Blog">Portfolio</h2>
 <hr class="bar-blog"> </hr>
   {% for post in site.categories['portfolio'] %}
-  <!--<div class="col-sm-3">-->
-    <!--<div class="post-header">-->
       <ul style="list-style: none; margin-left: -35px;">
         <li>
           <a href="{{post.url}}">
@@ -21,14 +19,8 @@ layout: default
           </a>
       </li>
       </ul>
-    <!--</div>-->
-    <!--<div class="post-header">
-      <p class="post-meta">{{ post.date | date: "%B %-d, %Y — %H:%M" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
-    </div>-->
- <!--</div>-->
 
   {% endfor %}
-  <!--<hr class="bar-blog"> </hr>-->
 <div class="temp-posts">
 </div>
 
