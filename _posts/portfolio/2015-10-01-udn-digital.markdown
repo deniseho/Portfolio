@@ -15,7 +15,7 @@ tags: design
     <ul class="task-info">
       <li>Duration: Sep 2014 - Aug 2015</li>
       <li>Backend: ASP.NET MVC, C#, SQL, SignalR, Entity Framework</li>
-      <li>Frontend: knockout.js, Bootstrap</li>
+      <li>Frontend: Knockout.js, Bootstrap</li>
     </ul>
     <p>
       <img src="../assets/img/portfolio/udn/newsSmith01.png">
@@ -26,13 +26,13 @@ tags: design
     <strong>UCD Searching Engine</strong></br>
     <ul class="task-info">
       <li>Duration: Sep 2015 - Mar 2016</li>
-      <li>Backend: ASP.NET MVC, C#, Elastic Search, SignalR</li>
-      <li>Frontend: Angular.js, TypeScript, Bootstrap</li>
+      <li>Backend: ASP.NET MVC, C#, Elasticsearch, SignalR</li>
+      <li>Frontend: AngularJS, TypeScript, Bootstrap</li>
       <li>Test: Selenium, Specflow</li>
     </ul>
     <p class="article-section">    
-      <img src="../assets/img/portfolio/udn/ucd_01.jpg" style="width: 740px">
-      <img src="../assets/img/portfolio/udn/ucd_02.jpg" style="width: 740px">
+      <img src="../assets/img/portfolio/udn/ucd_01.jpg">
+      <img src="../assets/img/portfolio/udn/ucd_02.jpg">
     </p>
   </li>
   <li id="PMG">
@@ -40,7 +40,7 @@ tags: design
     <ul class="task-info">
       <li>Duration: Mar 2016 - Oct 2016</li>
       <li>Backend: ASP.NET MVC, C#, Entity Framework, SignalR</li>
-      <li>Frontend: knockout.js, Bootstrap</li>
+      <li>Frontend: Knockout.js, Bootstrap</li>
       <li>Test: Selenium, Specflow</li>
     </ul>
     <p>
@@ -84,6 +84,7 @@ tags: design
   }
 
   img{
+    width: 740px;
     box-shadow: 0 0 5px #cccccc;
     margin-bottom: 1rem;
   }
