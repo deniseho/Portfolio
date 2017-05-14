@@ -20,39 +20,36 @@ tags: illustration
 
   <li id="Omninsight">
     <strong>Omninsight Official Website</strong></br>
-    <ul class="task-info">
+    <!--<ul class="task-info">
       <li>Wordpress customized theme</li>
-      <li><a href="http://omninsight.io/"  target="_blank">View the website</a></li>
-    </ul>
+    </ul>-->
     <p class="article-section">    
+      <a href="http://omninsight.io/"  target="_blank">
+        <img src="../assets/img/portfolio/omninsight/omni_site.png">    
+      </a>
     </p>
   </li>
 
   <li id="Farglory95">
     <strong>Farglory 95 Official Website</strong></br>
-    <ul class="task-info">
+    <!--<ul class="task-info">
       <li>Wordpress customized theme</li>
-      <!--<li>
-          <a href="http://95rich.farglory-realty.com.tw/index.php/zh/index/" target="_blank">View the website</a>
-      </li>      -->
-    </ul>
+    </ul>-->
     <p class="article-section">
-    <a href="http://95rich.farglory-realty.com.tw/index.php/zh/index/"  target="_blank">
-      <img src="../assets/img/portfolio/omninsight/farglory95.png">    
+      <a href="http://95rich.farglory-realty.com.tw/index.php/zh/index/"  target="_blank">
+        <img src="../assets/img/portfolio/omninsight/farglory95.png">    
       </a>
     </p>
   </li>
 
-  <li id="GraceOptical">
+  <!--<li id="GraceOptical">
     <strong>Grace Optical Official Website (processing)</strong></br>
     <ul class="task-info">
       <li>Wordpress customized theme</li>
-      <!--<li><a href="http://54.255.219.52/demo/grace_homepage/" target="_blank">
-        View the website (unfinished)</a></li>      -->
     </ul>
     <p class="article-section">
     </p>
-  </li>
+  </li>-->
 </ul>
 </div>
 
