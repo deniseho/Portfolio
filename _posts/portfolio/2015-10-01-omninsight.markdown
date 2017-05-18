@@ -11,7 +11,7 @@ tags: illustration
 <div style="padding: 0 15rem 4rem 15rem">
 <ul class="task-list">
   <li id="Admatrix">
-    <strong>Admatrix (processing)</strong></br>
+    <strong>Admatrix (processing)</strong>
     <ul class="task-info">
       <li>Backend: PHP, mySQL, AWS</li>
       <li>Frontend: React.js, Redux, webpack, D3.js</li>
@@ -19,7 +19,7 @@ tags: illustration
   </li>
 
   <li id="Omninsight">
-    <strong>Omninsight Official Website</strong></br>
+    <strong>Omninsight Official Website</strong>
     <!--<ul class="task-info">
       <li>Wordpress customized theme</li>
     </ul>-->
@@ -31,7 +31,7 @@ tags: illustration
   </li>
 
   <li id="Farglory95">
-    <strong>Farglory 95 Official Website</strong></br>
+    <strong>Farglory 95 Official Website</strong>
     <!--<ul class="task-info">
       <li>Wordpress customized theme</li>
     </ul>-->
