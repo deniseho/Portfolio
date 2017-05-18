@@ -11,7 +11,7 @@ tags: design
 <div style="padding: 0 15rem 4rem 15rem">
 <ul class="task-list">
   <li id="NewsSmith">
-    <strong>NewsSmith</strong></br>
+    <strong>NewsSmith</strong>
     <ul class="task-info">
       <li>Duration: Sep 2014 - Aug 2015</li>
       <li>Backend: ASP.NET MVC, C#, SQL, SignalR, Entity Framework</li>
@@ -23,7 +23,7 @@ tags: design
     </p>
   </li>
   <li id="UCD">
-    <strong>UCD Searching Engine</strong></br>
+    <strong>UCD Searching Engine</strong>
     <ul class="task-info">
       <li>Duration: Sep 2015 - Mar 2016</li>
       <li>Backend: ASP.NET MVC, C#, Elasticsearch, SignalR</li>
@@ -36,7 +36,7 @@ tags: design
     </p>
   </li>
   <li id="PMG">
-    <strong>Production Management System</strong></br>
+    <strong>Production Management System</strong>
     <ul class="task-info">
       <li>Duration: Mar 2016 - Oct 2016</li>
       <li>Backend: ASP.NET MVC, C#, Entity Framework, SignalR</li>
