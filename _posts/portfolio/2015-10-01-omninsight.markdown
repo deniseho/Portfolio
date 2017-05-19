@@ -10,31 +10,32 @@ tags: illustration
 
 <div style="padding: 0 15rem 4rem 15rem">
 <ul class="task-list">
-  <li id="Admatrix">
+  <!--<li id="Admatrix">
     <strong>Admatrix (processing)</strong>
     <ul class="task-info">
       <li>Backend: PHP, mySQL, AWS</li>
       <li>Frontend: React.js, Redux, webpack, D3.js</li>
     </ul>
-  </li>
+  </li>-->
 
   <li id="Omninsight">
     <strong>Omninsight Official Website</strong>
-    <!--<ul class="task-info">
-      <li>Wordpress customized theme</li>
-    </ul>-->
     <p class="article-section">    
       <a href="http://omninsight.io/"  target="_blank">
         <img src="../assets/img/portfolio/omninsight/omni_site.png">    
       </a>
     </p>
   </li>
-
+  <li id="GraceOptical">
+    <strong>Grace Optical Official Website</strong>
+    <p class="article-section">
+          <a href="http://54.255.133.209/"  target="_blank">
+        <img src="../assets/img/portfolio/omninsight/graceOptical.png">    
+      </a>
+    </p>
+  </li>
   <li id="Farglory95">
     <strong>Farglory 95 Official Website</strong>
-    <!--<ul class="task-info">
-      <li>Wordpress customized theme</li>
-    </ul>-->
     <p class="article-section">
       <a href="http://95rich.farglory-realty.com.tw/index.php/zh/index/"  target="_blank">
         <img src="../assets/img/portfolio/omninsight/farglory95.png">    
@@ -42,14 +43,6 @@ tags: illustration
     </p>
   </li>
 
-  <!--<li id="GraceOptical">
-    <strong>Grace Optical Official Website (processing)</strong></br>
-    <ul class="task-info">
-      <li>Wordpress customized theme</li>
-    </ul>
-    <p class="article-section">
-    </p>
-  </li>-->
 </ul>
 </div>
 
