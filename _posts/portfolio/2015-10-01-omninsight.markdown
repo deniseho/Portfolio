@@ -30,7 +30,7 @@ tags: illustration
     <strong>Grace Optical Official Website</strong>
     <p class="article-section">
           <a href="http://54.255.133.209/"  target="_blank">
-        <img src="../assets/img/portfolio/omninsight/graceOptical.png">    
+        <img src="../assets/img/portfolio/omninsight/grace_optical.png">    
       </a>
     </p>
   </li>
