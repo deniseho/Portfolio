@@ -4,7 +4,7 @@ title:  "Illustrations"
 date:   2015-09-30 18:11:08
 categories: portfolio
 featured: true
-featured_image: "../assets/img/portfolio/illustration/deniseho_illustrations.jpg"
+featured_image: "../assets/img/portfolio/illustration/illustrations_cover.jpg"
 tags: Illustrations
 ---
 
