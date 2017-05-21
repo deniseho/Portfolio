@@ -1,17 +1,24 @@
 ---
 layout: post
-title:  "Denise Ho Illustration"
+title:  "Illustrations"
 date:   2015-09-30 18:11:08
 categories: portfolio
 featured: true
-featured_image: "../assets/img/portfolio/deniseho-link.png"
-tags: design
+featured_image: "../assets/img/portfolio/illustration/deniseho_illustrations.jpg"
+tags: Illustrations
 ---
 
 <div style="text-align: center; padding-bottom: 4rem">
 <h2>Illustration</h2>
 <hr class="bar">
 <a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/69859077@N04/albums/72157680613347471" title="Denise Ho Illustration"><img src="https://c1.staticflickr.com/3/2882/33907118352_f0eaf7ea23_b.jpg" width="1024" height="660" alt="Denise Ho Illustration"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<div style="text-align: center; padding-bottom: 4rem">
+<h2>Fu Rong Magnet</h2>
+<hr class="bar">
+<a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/69859077@N04/albums/72157679409187953" title="Fu Rong Magnet"><img src="https://c1.staticflickr.com/3/2866/34010842316_57ec08620b_b.jpg" width="1024" height="423" alt="Fu Rong Magnet"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
+
 
 <h2>Ching Cheng Attorney</h2>
 <hr class="bar">

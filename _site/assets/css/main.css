@@ -597,7 +597,7 @@ header .kicker{
     z-index: 998;
     right: 20px;
     bottom: 20px;
-    background: url(../img/silhouette125.svg) no-repeat center;
+    /*background: url(../img/silhouette125.svg) no-repeat center;*/
     background-size: 15px;
     background-color: #303e49;
     border-radius: 30px; } }
@@ -1263,12 +1263,7 @@ form {
   .post-title {
     font-size: 20px;
     text-align: center;
-    letter-spacing: -1px;
-    line-height: 1;
-    /*padding-left: 10px; */
     }
-    .post-title:hover {
-      padding-left: 3px; }
   .post-meta {
     margin-bottom: 0px;
     padding-bottom: 20px;

@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Omninsight"
+title:  "Websites"
 date:   2015-09-30 18:11:10
 categories: portfolio
 featured: true
-featured_image: "../assets/img/portfolio/omninsight-link.png"
-tags: illustration
+featured_image: "../assets/img/portfolio/omninsight/omni_site.png"
+tags: Websites
 ---
 
 <div style="padding: 0 15rem 4rem 15rem">

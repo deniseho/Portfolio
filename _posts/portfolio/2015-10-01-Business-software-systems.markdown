@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "udn Digital"
+title:  "Business Software Systems"
 date:   2015-09-30 18:11:09
 categories: portfolio
 featured: true
-featured_image: "../assets/img/portfolio/udndigital-link.png"
-tags: design
+featured_image: "../assets/img/portfolio/udn/pmg.jpg"
+tags: Business Software Systems
 ---
 
 <div style="padding: 0 15rem 4rem 15rem">
