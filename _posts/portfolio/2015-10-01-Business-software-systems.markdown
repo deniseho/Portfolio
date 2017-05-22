@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title:  "Business Software Systems"
 date:   2015-09-30 18:11:09
 categories: portfolio
@@ -50,7 +50,6 @@ tags: Business Software Systems
     <div class="demo-video" style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/KoSbj_Kgqs8?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
     <h4>Delay Alert Reciever Management Demo</h4>
     <div class="demo-video" style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/_-VIhx95HFg?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
-    </p>
     <h4>More Demos:</h4>
     <ul class="more-demo-links">
       <li><a href="https://youtu.be/sA6po1eglGw" target="_blank">Login</a></li>
@@ -59,9 +58,6 @@ tags: Business Software Systems
       <li><a href="https://youtu.be/G7f_jDwSgnA" target="_blank">Production Records</a></li>
       <li><a href="https://youtu.be/TlVeRT-Fi3I" target="_blank">Authorization Management</a></li>
     </ul>
-  </li>
-</ul>
-</div>
 
 <style>
   .task-list > li{

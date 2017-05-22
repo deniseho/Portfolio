@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title:  "Websites"
 date:   2015-09-30 18:11:10
 categories: portfolio

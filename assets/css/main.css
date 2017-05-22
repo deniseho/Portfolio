@@ -1232,19 +1232,12 @@ form {
     -o-justify-content: space-between;
     justify-content: space-between;
     -ms-flex-pack: justify;
-    /*padding-left: 10px; */
     }
-  /*.title:hover {
-    padding-left: 10px; }*/
   .post-title {
+    margin-top: 10px;
     font-size: 20px;
     text-align: center;
-    letter-spacing: -1px;
-    line-height: 1;
-    /*padding-left: 10px; */
     }
-    .post-title:hover {
-      padding-left: 3px; }
   .post-meta {
     margin-bottom: 0px;
     padding-bottom: 20px;
@@ -1378,7 +1371,7 @@ form {
       left: 0px; }
 
 .empty-space {
-  margin-bottom: 280px; }
+  margin-bottom: 320px; }
 
 .view-btn{
   float: right;

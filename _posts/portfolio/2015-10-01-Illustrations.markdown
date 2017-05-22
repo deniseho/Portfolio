@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title:  "Illustrations"
 date:   2015-09-30 18:11:08
 categories: portfolio
@@ -7,7 +7,6 @@ featured: true
 featured_image: "../assets/img/portfolio/illustration/illustrations_cover.jpg"
 tags: Illustrations
 ---
-
 <div style="text-align: center; padding-bottom: 4rem">
 <h2>Illustration</h2>
 <hr class="bar">
