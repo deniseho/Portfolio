@@ -822,7 +822,8 @@ footer {
     max-width: 980px; } }
 
 .blurb {
-  max-width: 750px;
+  max-width: 580px;
+  text-align: center;
   padding: 0;
   margin: 0 auto;
   font-size: 18px;
@@ -1369,9 +1370,6 @@ form {
       top: 0%;
       right: 0px;
       left: 0px; }
-
-.empty-space {
-  margin-bottom: 320px; }
 
 .view-btn{
   float: right;

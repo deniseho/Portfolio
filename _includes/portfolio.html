@@ -1,8 +1,9 @@
 <div class="section-portfolio">
 <h2 id="Portfolio">Portfolio</h2>
 <hr class="bar"> </hr>
+<div class="row">
   {% for post in site.categories['portfolio'] %}
-    <div class="col-sm-4">
+    <div class="col-sm-6">
       <div class="portfolio-item">
         <a href="{{post.url}}" target="_blank">
             <img src="../portfolio/{{ post.featured_image }}"/>
@@ -14,5 +15,4 @@
     </div>
   {% endfor %}
   </div>
-<div class="empty-space">
 </div>
