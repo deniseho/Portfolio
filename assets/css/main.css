@@ -1423,6 +1423,7 @@ ul li {
   border: 1px solid rgba(0,0,0,0.3);
   overflow: hidden;
   width: 100%;
+  margin-bottom: 36px;
 }
 .portfolio-item img {
   max-width: 100%;
