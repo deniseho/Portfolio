@@ -833,6 +833,10 @@ footer {
   background: #fce5e5;
   text-align: center; }
 
+.section-about{
+  margin-bottom: 60px;
+}
+
 .social-links {
   max-width: 200px;
   margin: 0px auto 50px;
