@@ -29,7 +29,7 @@ tags: Websites
   <li id="GraceOptical">
     <strong>Grace Optical Official Website</strong>
     <p class="article-section">
-          <a href="http://54.255.133.209/"  target="_blank">
+          <a href="http://210.71.197.154/"  target="_blank">
         <img src="../assets/img/portfolio/omninsight/grace_optical.png">    
       </a>
     </p>
